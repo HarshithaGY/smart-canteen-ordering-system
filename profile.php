@@ -1,0 +1,1 @@
+<?php require_once 'layout.php'; require_user(); page_header('Profile'); ?><h1>Profile</h1><div class="cart-box"><p><b>Name:</b> <?=h(current_user()['name'])?></p><p><b>Email:</b> <?=h(current_user()['email'])?></p></div><?php page_footer(); ?>
